@@ -6,7 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<!-- 引入bootstrap -->
 	<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/css/bootstrap.min.css">
-	<!-- 引入JQuery  bootstrap.js-->
+	<!-- 引入JQuery 1 bootstrap.js-->
 	<script src="${pageContext.request.contextPath}/js/jquery-3.2.1.min.js"></script>
 	<script src="${pageContext.request.contextPath}/js/bootstrap.min.js"></script>
 	<style type="text/css">
@@ -41,21 +41,7 @@
 				      <input type="password" class="form-control" id="password" placeholder="请输入密码" name="password">
 				    </div>
 				  </div>
-				  <%--<div class="form-group">--%>
-				    <%--<div class="col-sm-offset-2 col-sm-10">--%>
-				      <%--<div class="checkbox">--%>
-				        <%--<label class="checkbox-inline">--%>
-							<%--<input type="radio" name="role" value="1" checked>管理员--%>
-						<%--</label>--%>
-						<%--<label class="checkbox-inline">--%>
-							<%--<input type="radio" name="role" value="2">老师--%>
-						<%--</label>--%>
-						<%--<label class="checkbox-inline">--%>
-							<%--<input type="radio" name="role" value="3">学生--%>
-						<%--</label>--%>
-				      <%--</div>--%>
-				    <%--</div>--%>
-				  <%--</div>--%>
+
 				  <div class="form-group pull-right" style="margin-right: 15px;">
 				    <div class="col-sm-offset-2 col-sm-10">
 				      <button type="submit" class="btn btn-default btn-info">登录</button>

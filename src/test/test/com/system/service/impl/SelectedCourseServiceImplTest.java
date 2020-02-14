@@ -1,6 +1,6 @@
 package com.system.service.impl;
 
-import com.system.po.SelectedCourseCustom;
+import com.system.bean.SelectedCourseCustom;
 import com.system.service.CourseService;
 import com.system.service.SelectedCourseService;
 import org.junit.Before;

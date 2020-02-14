@@ -8,7 +8,7 @@
 	<title>课程信息显示</title>
 
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<!-- 引入bootstrap -->
+	<!-- 引入bootstrap1 -->
 	<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/css/bootstrap.min.css">
 	<!-- 引入JQuery  bootstrap.js-->
 	<script src="${pageContext.request.contextPath}/js/jquery-3.2.1.min.js"></script>

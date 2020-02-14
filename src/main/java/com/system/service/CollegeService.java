@@ -1,6 +1,6 @@
 package com.system.service;
-
-import com.system.po.College;
+//
+import com.system.bean.College;
 
 import java.util.List;
 

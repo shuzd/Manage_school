@@ -1,10 +1,8 @@
 package com.system.controller;
 
-import com.system.exception.CustomException;
-import com.system.po.*;
+import com.system.bean.*;
 import com.system.service.CourseService;
 import com.system.service.SelectedCourseService;
-import com.system.service.StudentService;
 import com.system.service.TeacherService;
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.subject.Subject;
@@ -81,6 +79,16 @@ public class TeacherController {
     @RequestMapping(value = "/passwordRest")
     public String passwordRest() throws Exception {
         return "teacher/passwordRest";
+    }
+
+    //搜索课程
+    @RequestMapping(value = "selectCourse", method = {RequestMethod.POST})
+    private String selectCourse(String findByName, Model model) throws Exception {
+
+        List<CourseCustom> list = courseService.findByName(findByName);
+
+        model.addAttribute("courseList", list);
+        return "teacher/showCourse";
     }
 
 }

@@ -1,6 +1,6 @@
 package com.system.service.impl;
 
-import com.system.po.CourseCustom;
+import com.system.bean.CourseCustom;
 import com.system.service.CourseService;
 import com.system.service.StudentService;
 import org.junit.Before;

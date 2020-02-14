@@ -1,7 +1,7 @@
 package com.system.service.impl;
 
-import com.system.po.Teacher;
-import com.system.po.TeacherCustom;
+import com.system.bean.Teacher;
+import com.system.bean.TeacherCustom;
 import com.system.service.TeacherService;
 import org.junit.Before;
 import org.junit.Test;

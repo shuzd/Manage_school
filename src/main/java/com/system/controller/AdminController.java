@@ -1,10 +1,8 @@
 package com.system.controller;
 
 import com.system.exception.CustomException;
-import com.system.po.*;
+import com.system.bean.*;
 import com.system.service.*;
-import org.apache.shiro.SecurityUtils;
-import org.apache.shiro.subject.Subject;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;

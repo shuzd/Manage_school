@@ -1,8 +1,8 @@
 package com.system.service.impl;
 
-import com.system.po.PagingVO;
-import com.system.po.Student;
-import com.system.po.StudentCustom;
+import com.system.bean.PagingVO;
+import com.system.bean.Student;
+import com.system.bean.StudentCustom;
 import com.system.service.StudentService;
 import org.junit.Before;
 import org.junit.Test;

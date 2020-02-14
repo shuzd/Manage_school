@@ -1,7 +1,7 @@
 package com.system.controller;
 
 import com.system.exception.CustomException;
-import com.system.po.*;
+import com.system.bean.*;
 import com.system.service.CourseService;
 import com.system.service.SelectedCourseService;
 import com.system.service.StudentService;
@@ -10,6 +10,7 @@ import org.apache.shiro.subject.Subject;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
 
 import javax.annotation.Resource;
 import java.util.List;
@@ -123,7 +124,15 @@ public class StudentController {
     public String passwordRest() throws Exception {
         return "student/passwordRest";
     }
+    //搜索课程
+    @RequestMapping(value = "selectCourse", method = {RequestMethod.POST})
+    private String selectCourse(String findByName, Model model) throws Exception {
 
+        List<CourseCustom> list = courseService.findByName(findByName);
+
+        model.addAttribute("courseList", list);
+        return "student/showCourse";
+    }
 
 
 }

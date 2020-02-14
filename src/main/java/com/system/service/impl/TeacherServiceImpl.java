@@ -1,11 +1,11 @@
 package com.system.service.impl;
-
+//
 import com.system.exception.CustomException;
-import com.system.mapper.CollegeMapper;
-import com.system.mapper.CourseMapper;
-import com.system.mapper.TeacherMapper;
-import com.system.mapper.TeacherMapperCustom;
-import com.system.po.*;
+import com.system.dao.CollegeMapper;
+import com.system.dao.CourseMapper;
+import com.system.dao.TeacherMapper;
+import com.system.dao.TeacherMapperCustom;
+import com.system.bean.*;
 import com.system.service.TeacherService;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -7,7 +7,7 @@
 	<title></title>
 
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<!-- 引入bootstrap -->
+	<!-- 引入bootstrap 1-->
 	<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/css/bootstrap.min.css">
 	<!-- 引入JQuery  bootstrap.js-->
 	<script src="${pageContext.request.contextPath}/js/jquery-3.2.1.min.js"></script>
@@ -73,7 +73,7 @@
 							<label for="inputPassword3" class="col-sm-2 control-label" name="coursetype">课程的类型：</label>
 							<div class="col-sm-10">
 								<select class="form-control" name="coursetype">
-									<option value="必修课">必修课</option>
+									<option value="通识课">通识课</option>
 									<option value="选修课">选修课</option>
 									<option value="公共课">公共课</option>
 								</select>

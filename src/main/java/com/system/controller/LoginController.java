@@ -1,6 +1,6 @@
 package com.system.controller;
 
-import com.system.po.Userlogin;
+import com.system.bean.Userlogin;
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.authc.UsernamePasswordToken;
 import org.apache.shiro.subject.Subject;
@@ -43,4 +43,5 @@ public class LoginController {
         return "/login";
     }
 
+    //hahah
 }

@@ -5,7 +5,7 @@
 	<title></title>
 
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<!-- 引入bootstrap -->
+	<!-- 1引入bootstrap -->
 	<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/css/bootstrap.min.css">
 	<!-- 引入JQuery  bootstrap.js-->
 	<script src="${pageContext.request.contextPath}/js/jquery-3.2.1.min.js"></script>

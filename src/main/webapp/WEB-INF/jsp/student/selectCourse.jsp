@@ -62,7 +62,7 @@
 										<td>${item.couseCustom.score}</td>
 										<td>
 											<button class="btn btn-default btn-xs btn-info" onClick="location.href='/student/outCourse?id=${item.courseid}'">退课</button>
-											<!--弹出框-->
+											<!--弹出框1-->
 										</td>
 									</tr>
 								</c:if>

@@ -1,7 +1,7 @@
-package com.system.mapper;
+package com.system.dao;
 
 
-import com.system.po.UserloginCustom;
+import com.system.bean.UserloginCustom;
 import org.junit.Before;
 import org.junit.Test;
 import org.springframework.context.ApplicationContext;

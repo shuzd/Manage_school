@@ -1,8 +1,8 @@
-package com.system.mapper;
+package com.system.dao;
 
-import com.system.po.PagingVO;
-import com.system.po.StudentCustom;
-import com.system.po.TeacherCustom;
+import com.system.bean.PagingVO;
+import com.system.bean.StudentCustom;
+import com.system.bean.TeacherCustom;
 import org.junit.Before;
 import org.junit.Test;
 import org.springframework.context.ApplicationContext;

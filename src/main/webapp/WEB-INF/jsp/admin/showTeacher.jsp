@@ -20,7 +20,7 @@
 <body>
 	<!-- 顶栏 -->
 
-	<!-- 中间主体 --><jsp:include page="top.jsp"></jsp:include>
+	<!-- 1中间主体 --><jsp:include page="top.jsp"></jsp:include>
 	<div class="container" id="content">
 		<div class="row">
 			<jsp:include page="menu.jsp"></jsp:include>

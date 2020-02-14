@@ -1,5 +1,5 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<%--开启el表达式--%>
+<%--1开启el表达式--%>
 <%@ page  isELIgnored="false"%>
 
 <html>

@@ -1,7 +1,7 @@
-package com.system.mapper;
+package com.system.dao;
 
-import com.system.po.Student;
-import com.system.po.StudentExample;
+import com.system.bean.Student;
+import com.system.bean.StudentExample;
 import org.junit.Before;
 import org.junit.Test;
 import org.springframework.context.ApplicationContext;
